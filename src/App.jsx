@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import MovieList from "./components/movieList/MovieList";
 import Movie from "./pages/movieDetail/Movie";
-import Footer from "./components/footer/Footer";
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
             </Route>
           </Routes>
         </Router>
-        <Footer/>
       </div>
     </>
   );
